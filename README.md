@@ -45,6 +45,24 @@ This little tool helps you rename, move, and organize files like a pro. Just giv
 
 ## Usage
 
+You can use the file manager in two ways: directly with command-line arguments or through an interactive mode script.
+
+### Interactive Mode
+For a more user-friendly experience, use the included helper script:
+
+```bash
+chmod +x filemanager.sh  # first time only
+./filemanager.sh
+```
+The script will guide you through:
+
+- Selecting an operation (rename, move, organize)
+- Entering required parameters
+- Setting recursive and dry-run options
+- Previewing and confirming changes
+
+### Direct Command-Line Usage
+
 ### Rename Files
 
 Rename files based on regular expression patterns:
